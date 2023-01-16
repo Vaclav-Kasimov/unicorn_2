@@ -27,12 +27,6 @@ header{
 
 }
 
-#border_header{
-	background: linear-gradient(to bottom, #69AEAC, rgba(0, 0, 0, 0));
-    width: 100%;
-    height: 20px;
-    top:0;
-}
 
 .navbar{
 	background-color: #69AEAC !important;
@@ -48,3 +42,98 @@ header{
 }
 
 /*--------------- HEADER END ------------------------*/
+
+/*Main content !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+.gradient{
+	background: linear-gradient(to bottom, #69AEAC, rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 20px;
+    top:0;
+}
+
+.adv-img-m-0 img{
+	width: 100%;
+}
+
+.bg{
+	padding-top: 3.125vw;
+	padding-bottom: 6.25vw;
+}
+
+.blue-bg{
+	background-color: #69AEAC;
+}
+
+
+.discription-m-white{
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 6.875vw;
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.slogans{
+	list-style-image: url("../img/icons/list_marker_white.png");
+	margin-left: 20%;
+/*	display: flex;
+	flex-direction: column;
+	align-items: center;*/
+}
+
+.slogans li span{
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 5vw;
+	color: #000000;
+}
+
+.pink-button{
+	background: #F49AB4;
+	box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	width: 46.875%;
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 5vw;
+	color: #411F15;
+	margin-left: 26%;
+}
+
+
+.header-m-black{
+	text-align: center;
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 8.125vw;
+	color: #411F15;
+	margin-bottom: 4vw;
+}
+
+.adv-img-m-45 img{
+	margin-left: 4.5%;
+	margin-right: 4.5%;
+	width: 91%;
+}
+
+.adv-text{
+	margin-left: 4.5%;
+	margin-right: 4.5%;
+}
+
+.adv-text div{
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 5vw;
+	color: #411F15;
+	text-indent: 9.375%;
+}
+/*Main content end!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
