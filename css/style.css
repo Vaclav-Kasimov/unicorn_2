@@ -123,12 +123,12 @@ header{
 	width: 91%;
 }
 
-.adv-text{
+.adv-text-m-45{
 	margin-left: 4.5%;
 	margin-right: 4.5%;
 }
 
-.adv-text div{
+.adv-text-m-45 div{
 	font-family: 'PT Sans';
 	font-style: normal;
 	font-weight: 400;
@@ -136,4 +136,87 @@ header{
 	color: #411F15;
 	text-indent: 9.375%;
 }
+
+.adv-container{
+	position: relative;
+	width: 100%;
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 400;
+}
+
+.adv-container-wh{
+	height: 58.125vw;
+	color: #FFFFFF;
+}
+
+.adv-container-br{
+	height: 70.9375vw;
+	color: #411F15;
+}
+
+.adv-container-wh div{
+	font-size: 8.75vw;
+	position: absolute;
+}
+
+.adv-container-wh div:nth-child(1){
+	left: 8.125%;
+}
+
+.adv-container-wh div:nth-child(2){
+	top: 25%;
+	left: 54%;
+	font-weight: 900;
+}
+
+.adv-container-wh div:nth-child(3){
+	top: 42%;
+	left: 15.6%;
+}
+
+.adv-container-wh div:nth-child(4){
+	top: 57.5%;
+	left: 57%;
+}
+
+.unicornlab-name{
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-size: 9.375vw;
+	color: #439a97;
+	background: #FFFFFF;
+	border: 1.25vw solid #439A97;
+	border-radius: 3.125vw;
+	top: 85%;
+	left: 33%;
+}
+
+.adv-container-br div{
+	font-size: 9.375vw;
+	position: absolute;
+}
+
+.adv-container-br div:nth-child(1){
+	top: 12%;
+	left: 8.125%;
+}
+
+.adv-container-br div:nth-child(2){
+	top: 39%;
+	left: 35%;
+	color: #439A97;
+	font-weight: 700;
+}
+
+.adv-container-br div:nth-child(3){
+	top: 62%;
+	left: 8.125%;
+}
+
+#carouselExampleControls div img{
+	height: 145.3125vw;
+	width: 100%;
+}
+
 /*Main content end!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
