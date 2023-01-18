@@ -223,4 +223,152 @@ header{
 	margin-top: 6.25vw;
 }
 
+.adv_card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.adv_card img{
+	width: 90%;
+	margin-top: 7.8125vw;
+	border-radius: 5px;
+	margin-bottom: 3.4375vw;
+}
+
+.cloth_name{
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 4.375vw;
+	text-align: center;
+	color: #411F15;
+	margin-bottom: 3.4375vw;
+}
+
+.materials{
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 4.375vw;
+	color: #411F15;
+	margin-bottom: 3.4375vw;
+	text-align: center;
+}
+
+.btn_2{
+	margin-bottom: 3.4375vw;
+	background: #FFFFFF;
+	border: 1px solid #439A97;
+	border-radius: 7px;
+	color: rgba(65, 31, 21, 0.65);
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 5,625vw;
+}
+
+.rounds{
+	display: flex;
+	margin-bottom: 4.6875vw; 
+}
+
+.round{
+	width: 4.6875vw;
+	height: 4.6875vw;
+	margin-right: 1vw;
+	margin-left: 1vw;
+	border: 1px solid #439A97;
+	border-radius: 100%;
+}
+
+.round_black{
+	background: #000000;
+}
+
+.round_white{
+	background-color: #FFFFFF;
+}
+
+.round_blue{
+	background: #89D6EE;
+}
+
+.round_gray{
+	background: #808080;
+}
+
+.round_cream{
+	background: #F5F5DC;
+}
+
+.header-m-white{
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 8.125vw;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#carouselRev{
+	margin-top: 15.3125vw;
+	margin-bottom: 15.3125vw;
+}
+
+#carouselRev div img{
+	height: 161.875vw;
+	width: 100%;
+}
+
+footer{
+	background-color: #439A97;
+}
+
+.footer-block{
+	margin-bottom: 12.8125vw;
+	margin-top: 12.8125vw;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.footer-block div{
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 5.625vw;
+	text-transform: uppercase;	
+	margin-bottom: 	2vw;
+}
+
+.footer-logo{
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 9.375vw;
+}
+
+.footer-logos{
+	position: 	relative;	
+	height: 	25vw;
+}
+
+.footer-logos img{
+	position: 	absolute;
+	width: 	12.5vw;
+	height: 	12.5vw;	
+}
+
+.footer-logos img:nth-child(1){
+	left:17.8125vw;
+}
+
+.footer-logos img:nth-child(2){
+	right:17.8125vw;
+}
+
+.footer-logos img:nth-child(3){
+	left:43.125vw;
+}
+
 /*Main content end!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
