@@ -30,11 +30,8 @@
 <body>
 
   <header>
-    <div class="container" id="navbar-container">
-      <!-- navbar-light bg-light -- it is for the color-scheme
-      position-relative -- so the positioning of the elements inside the navbar will be possible -->
-
-      <nav id="navbar-default" class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
 
           <!-- Кнопка -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,8 +41,8 @@
 
           <!-- Лого и название бренда -->
           <a class="navbar-brand position-relative" href="index.html">
-            <div id="nav-logo">
-              <img id="nav-img" src="/img/logos/Logo80.png" width="80" height="80">
+            <div>
+              <img src="/img/logos/Logo80.png"  >
               <span class="">unicOrn.lab</span>
             </div>
           </a>  
@@ -73,19 +70,25 @@
 
   <!-- Main content !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
   <div class="main-content position-relative">
-    <div class="gradient position-absolute d-md-none"></div>
+  <div class="gradient position-absolute d-md-none"></div>
 
-    <div class="adv-img-m-0"><img src="/img/content/adv_2.png"></div>
+  <div class="adv-img-m-0 d-md-none">
+    <img src="/img/content/adv_2.png">
+  </div>
 
-    <div class="blue-bg bg">
+    <div class="bg blue-bg bg-desktop-wh md-relative">
 
-      <div class="discription-m-white">Вышивка на футболках,<br>худи, свитшотах,<br>лонгсливах.</div>
-      <ul class="slogans"><!-- Краткие заманивающие слоганы. Идут горизонтально. -->
+      <div class="discription-m-white d-md-none">Вышивка на футболках,<br>худи, свитшотах,<br>лонгсливах.</div>
+      <div class="header-d-black-lg d-none d-md-block md-absolute">Ваша вышивка</div>
+      <div class="blue-rectangle d-none d-md-block md-absolute">на футболках,<br>худи, свитшотах,<br>лонгсливах</div>
+      <img class="adv-img-d-corner adv-img-d-left d-none d-md-block md-absolute" src="/img/content/adv_1.png">
+      <img class="adv-img-d-corner adv-img-d-right d-none d-md-block md-absolute" src="/img/content/adv_2.png">
+      <ul class="slogans md-absolute"><!-- Краткие заманивающие слоганы. Идут горизонтально. -->
         <li><span>любая вышивка</span></li>
         <li><span>изготовление 3-7 дней</span></li>
         <li><span>низкие цены</span></li>
       </ul>
-      <button id="btn_1" class="pink-button"> <!-- Кнопка для создания заказа -->
+      <button id="btn_1" class="pink-button md-absolute"> <!-- Кнопка для создания заказа -->
         Заказать сейчас
       </button>
 
@@ -124,7 +127,7 @@
       </div>
 
 
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleControls" class="carousel slide d-md-none" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="/img/content/carousel_1.png" class="d-block w-100">
@@ -239,7 +242,7 @@
     </div>
 
     <div class="bg">
-            <div id="carouselRev" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselRev" class="carousel slide d-md-none" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="/img/content/rev_1.jpg" class="d-block w-100">
