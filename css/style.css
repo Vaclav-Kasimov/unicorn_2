@@ -146,7 +146,7 @@ header{
 	font-weight: 400;
 }
 
-.adv-container-wh{
+.adv-container-wh-m{
 	height: 58.125vw;
 	color: #FFFFFF;
 }
@@ -156,27 +156,27 @@ header{
 	color: #411F15;
 }
 
-.adv-container-wh div{
+.adv-container-wh-m div{
 	font-size: 8.75vw;
 	position: absolute;
 }
 
-.adv-container-wh div:nth-child(1){
+.adv-container-wh-m div:nth-child(1){
 	left: 8.125%;
 }
 
-.adv-container-wh div:nth-child(2){
+.adv-container-wh-m div:nth-child(2){
 	top: 25%;
 	left: 54%;
 	font-weight: 900;
 }
 
-.adv-container-wh div:nth-child(3){
+.adv-container-wh-m div:nth-child(3){
 	top: 42%;
 	left: 15.6%;
 }
 
-.adv-container-wh div:nth-child(4){
+.adv-container-wh-m div:nth-child(4){
 	top: 57.5%;
 	left: 57%;
 }
@@ -185,7 +185,7 @@ header{
 	font-family: 'Playfair Display';
 	font-style: normal;
 	font-size: 9.375vw;
-	color: #439a97;
+	color: #439a97!important;
 	background: #FFFFFF;
 	border: 1.25vw solid #439A97;
 	border-radius: 3.125vw;
@@ -518,8 +518,128 @@ footer{
 		bottom: 0;
 		right: 15%;
 	}
-	
 
+	.main-content > div:nth-child(4){
+		display: flex;
+	}
+	
+	.adv-img-d-50{
+		width: 50%;
+		background-color: 	rgba(67, 154, 151, 0.8);
+	}
+
+	.adv-img-d-50 img{
+		margin: 0;
+		width: 100%;
+	}
+
+	.adv-text-d-50{
+		width: 50%;
+		margin: 0;
+		background-color: 	rgba(67, 154, 151, 0.8);
+		padding: 14px;
+	}
+
+	.adv-text-d-50 div{
+		font-size: 	1.21rem;
+	}
+
+	.header-d-black-md{
+		font-size: 	2rem;	
+		font-family: 'PT Serif';
+		font-style: normal;
+		font-weight: 700;
+	}
+
+	.adv-text-d-50 .header-d-black-md{
+		text-align: center;	
+	}
+
+	.main-content > div:nth-child(5){
+		width: 100%;
+		height: 530px;
+	}
+
+	.adv-container-black-d{
+		width: 298px;
+		height: 218px;
+		left: 3%;
+		top: 14%;
+	}
+
+	.adv-container-black-d div{
+		font-size: 2.59rem;
+		color: #411F15;
+	}
+
+	.adv-container-black-d div:nth-child(1){
+		left: 0;
+		top: 0;
+	}
+
+	.adv-container-black-d div:nth-child(2){
+		left: 64%;
+		top: 0;
+	}
+
+	.adv-container-black-d div:nth-child(2){
+		left: 64%;
+		top: 0;
+		color: #439A97;
+	}
+
+	.adv-container-black-d div:nth-child(3){
+		left: 44%;
+		top: 37%;
+	}
+
+	.adv-container-black-d div:nth-child(4){
+		left: 86%;
+		top: 75%;
+	}
+
+	.unicornlab-name{
+		top: 146%;
+		left: 75%;
+		border-width: 4px;
+		border-radius: 10px;
+		font-weight: 400;
+		font-size: 2.16rem;
+	}
+
+	.adv-img-d-bottom img{
+		width: 343px;
+		height: 501px;
+		margin: 0;
+	}
+
+	.adv-img-d-bottom{
+		right: 4%;
+		bottom: 0;
+	}
+
+	.blue-shadow{
+		width: 343px;
+		height: 501px;
+		background: rgba(67, 154, 151, 0.8);
+		top: 0;
+		right: 0;
+	}
+
+	.adv-round{
+		width: 221px; height: 221px;
+		border-radius: 100%;
+		background: rgba(67, 154, 151, 0.8);
+		bottom: 4%;
+		left: 2%;
+	}
+
+	.adv-round img{
+		width: 80%;
+		height: 80%;
+		border-radius: 100%;
+		bottom: 3%; right: 3%;
+	}
 
 	/*------------------MAIN CONTENT END -----------------------------*/
 }
@@ -564,6 +684,44 @@ footer{
 		width: 252px;
 	}
 
+	.adv-text-d-50{
+		padding: 18px;
+	}
+
+	.adv-text-d-50 div{
+		font-size: 	1.56rem;
+	}
+
+	.header-d-black-md{
+		font-size: 	2.57rem;
+	}
+
+	.main-content > div:nth-child(5){
+		height: 685px;
+	}
+
+	.adv-img-d-bottom img{
+		width: 443px;
+		height: 647px;
+	}
+
+	.blue-shadow{
+		width: 443px;
+		height: 647px;
+	}
+
+	.adv-container-black-d{
+		width: 384px;
+		height: 282px;
+	}
+
+	.adv-container-black-d div{
+		font-size: 3.35rem;
+	}
+
+	.adv-round{
+		width: 286px; height: 286px;
+	}
 
 	/*------------------MAIN CONTENT END -----------------------------*/
 
@@ -612,6 +770,45 @@ footer{
 		font-size: 1.76rem;
 		height: 45px;
 		width: 305px;
+	}
+
+	.adv-text-d-50{
+		padding: 22px;
+	}
+
+	.adv-text-d-50 div{
+		font-size: 	1.9rem;
+	}
+
+	.header-d-black-md{
+		font-size: 	3.11rem;
+	}
+
+	.main-content > div:nth-child(5){
+		height: 828px;
+	}
+
+	.adv-img-d-bottom img{
+		width: 536px;
+		height: 783px;
+	}
+
+	.blue-shadow{
+		width: 536px;
+		height: 783px;
+	}
+
+	.adv-container-black-d{
+		width: 465px;
+		height: 341px;
+	}
+
+	.adv-container-black-d div{
+		font-size: 4.05rem;
+	}
+
+	.adv-round{
+		width: 346px; height: 346px;
 	}
 
 
